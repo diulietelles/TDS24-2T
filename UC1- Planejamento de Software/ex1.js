@@ -27,3 +27,4 @@ Feedback do usuário(colaborador da empresa que utiliza o sistema para realizar 
 7- Adicionais para clientes: tablet na mesa dos clientes mostrando promoçoes de combos na cafeteria e fornecer livros online no proprio sistema para os clientes lerem enquanto tomam café
 
 Nomes: Diulie, Freliannys e Leandra
+*/
