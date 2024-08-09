@@ -11,3 +11,5 @@ integrar sistemas de pagamentos, credito debito, QRcode, registrar histórico, c
 Cadastro de clientes: nome, histórico da compra
 
 Feedback do usuário(colaborador da empresa que utiliza o sistema para realizar os pedidos dos clientes): sugestões, reclamações */
+
+Nomes: Diulie, Freliannys e Leandra
