@@ -22,9 +22,7 @@ Feedback do usuário(colaborador da empresa que utiliza o sistema para realizar 
 
 4- Confiabilidade: O software deve ter uptime de 99,9% minimizando interrupçoes nos seus serviços, deve realizar backups automaticos diatriamente para evitar perda de dados 
 
-5- Compatibilidade: O software deve ser compativel com a m,aioria dos sistemas operacionais usados no gerenciamento da cafeteria(Windows,IOS-Sonoma, Android...)
-
-7- Adicionais para clientes: tablet na mesa dos clientes mostrando promoçoes de combos na cafeteria e fornecer livros online no proprio sistema para os clientes lerem enquanto tomam café
+5- Compatibilidade: O software deve ser compativel com a maioria dos sistemas operacionais usados no gerenciamento da cafeteria(Windows,IOS-Sonoma, Android...)
 
 Nomes: Diulie, Freliannys e Leandra
 */
