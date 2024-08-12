@@ -1,4 +1,4 @@
-const nome= 'Diulie'
+/*const nome= 'Diulie'
 const sobrenome = 'Telles'
 const idade = 29
 const estudante = 'sim'
@@ -20,3 +20,12 @@ console.log(typeof novaVariavel)
 
 novaVariavel = undefined
 console.log(typeof novaVariavel)
+*/
+
+const nome = prompt('Qual o seu nome?')
+const idade = prompt('Qual a sua idade?')
+console.log('Nome:',nome,)
+console.log('Idade:',idade)
+
+console.log(typeof nome)
+console.log(typeof idade)
