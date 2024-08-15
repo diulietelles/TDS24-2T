@@ -67,7 +67,7 @@ idade = Number(prompt("Quantos anos você tem?"))
 
 //6
 console.log(typeof nome) // vai imprimir string
-console.log(typeof idade) // vai imprimir string
+console.log(typeof idade) // vai imprimir number
 //7
 console.log("Olá, " + nome + ", você tem " + idade + " anos.")
 
