@@ -51,22 +51,24 @@ imprima na tela o tipo desas variaveis
 imprima na tela' ola´, nome, 'voce tem 'idade, 'anos'
 */
 
+//1 e 2
+let nome
+let idade
+//3
+console.log(typeof nome) //  undefined
+console.log(typeof idade) // undefined
 
-let nome;
-let idade;
-console.log(typeof nome); //  undefined
-console.log(typeof idade); // undefined
+//4
+// como não atribui nenhum valor as variáveis 'nome' e 'idade', elas são undefined, não nada foi definido
 
-// Por que esse tipo foi impresso?
-// omo não atribui nenhum valor as variáveis 'nome' e 'idade', elas são undefined, não nada foi definido
+//5
+nome = prompt("Qual é o seu nome?")
+idade = prompt("Quantos anos você tem?")
 
-//prompt:
-nome = prompt("Qual é o seu nome?");
-idade = prompt("Quantos anos você tem?");
-
-//typeof:
-console.log(typeof nome); // vai imprimir string
-console.log(typeof idade); // vai imprimir string
-console.log("Olá, " + nome + ", você tem " + idade + " anos.");
+//6
+console.log(typeof nome) // vai imprimir string
+console.log(typeof idade) // vai imprimir string
+//7
+console.log("Olá, " + nome + ", você tem " + idade + " anos.")
 
 
