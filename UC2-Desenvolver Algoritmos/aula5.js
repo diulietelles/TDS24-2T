@@ -52,8 +52,8 @@ imprima na tela' ola´, nome, 'voce tem 'idade, 'anos'
 */
 
 //1 e 2
-let nome
-let idade
+let nome 
+let idade 
 //3
 console.log(typeof nome) //  undefined
 console.log(typeof idade) // undefined
@@ -63,7 +63,7 @@ console.log(typeof idade) // undefined
 
 //5
 nome = prompt("Qual é o seu nome?")
-idade = prompt("Quantos anos você tem?")
+idade = Number(prompt("Quantos anos você tem?"))
 
 //6
 console.log(typeof nome) // vai imprimir string
