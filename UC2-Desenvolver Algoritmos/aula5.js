@@ -73,7 +73,7 @@ console.log("Olá, " + nome + ", você tem " + idade + " anos.")
 //Exercicio 2:
 /* escreva um programa que faca 3 perguntas de sim ou nao armazenando em uma variavel. Ex: voce esta usqando roupa azul hoje?
 cite 3 novas variaveis contendo respostas
-imprima na tela as perguntas com as respostas. Ex: voce esta usando uma roupa azul hoje? SIM */
+imprima na tela as perguntas com as respostas. Ex: voce esta usando uma roupa azul hoje? SIM 
 
 //*****Resposta 
 // a
@@ -84,4 +84,23 @@ let resposta3 = prompt('Você gosta de ler livros?')
 // b
 console.log('Você gosta de sushi?' + resposta1)
 console.log('Você tomou café da manhã? ' + resposta2)
-console.log('Você gosta de ler livros? ' + resposta3)
+console.log('Você gosta de ler livros? ' + resposta3)*/
+
+
+//Exercicio 3:
+
+let a = 10
+let b = 25
+
+console.log('Antes de trocar:')
+console.log('a = ' + a) // a = 10
+console.log('b = ' + b) // b = 25
+
+// variavel temporaria:
+let temp = a //  agora armazena o valor de a que é 10
+a = b      // agora a  recebe o valor de b que é 25
+b = temp //b agora recebe o valor armazenado em temp
+
+console.log('Depois de trocar:')
+console.log('a = ' + a)// a = 25
+console.log('b = ' + b)// b = 10
