@@ -1,6 +1,6 @@
-/* EXERCIOS DE INTERPRETAÇÃO:
-
-Exercicio 1 
+// EXERCIOS DE INTERPRETAÇÃO:
+/*
+Exercicio 1
 let a = 10
 let b = 10
 console.log(b)
@@ -29,12 +29,16 @@ console.log(a, b,c)
 a = b que agora 10(sem mais alterações)
 10 10 10
 
-*/
-//Exercício //*****Resposta
-let p = prompt('Quantas horas voce trabalha por dia?') // pergunta quantas horas vc trabalha por dia
-let t = prompt("Quanto voce recebe por dia?") // pergunta quanto o usuario recebe por dia 
-console.log('voce recebe',t,'/',p, 'por hora') // calcula e mostra quanto o usuario recebe por hora
+
+//Exercício 3 
+*****Resposta
+let trabalha = prompt('Quantas horas voce trabalha por dia?') // pergunta quantas horas vc trabalha por dia
+let recebe = prompt('Quanto voce recebe por dia?') // pergunta quanto o usuario recebe por dia 
+console.log('voce recebe', trabalha,'/', recebe, 'por hora') // calcula e mostra quanto o usuario recebe por hora
 //t e p sao variaveis strings
 //prompt para perguntar ao usuario
 //exibe no console a resposta 'voce recebe 25 / 10 por hora'
+*/
+ 
+//EXERCIOS DE ESCRITA:
 
