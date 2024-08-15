@@ -31,7 +31,7 @@ a = b que agora 10(sem mais alterações)
 
 
 //Exercício 3 
-*****Resposta
+*****Resposta 
 let trabalha = prompt('Quantas horas voce trabalha por dia?') // pergunta quantas horas vc trabalha por dia
 let recebe = prompt('Quanto voce recebe por dia?') // pergunta quanto o usuario recebe por dia 
 console.log('voce recebe', trabalha,'/', recebe, 'por hora') // calcula e mostra quanto o usuario recebe por hora
@@ -39,6 +39,34 @@ console.log('voce recebe', trabalha,'/', recebe, 'por hora') // calcula e mostra
 //prompt para perguntar ao usuario
 //exibe no console a resposta 'voce recebe 25 / 10 por hora'
 */
- 
+
 //EXERCIOS DE ESCRITA:
+
+/*
+declare uma variavelnome sem valor, declare uma variavel idade, sem valor
+imprima na tela o tipo dessas variaveis com typeof
+pq esse tipo foi impresso?
+agora com prompt pergunte o usuario nome e idade
+imprima na tela o tipo desas variaveis
+imprima na tela' ola´, nome, 'voce tem 'idade, 'anos'
+*/
+
+
+let nome;
+let idade;
+console.log(typeof nome); //  undefined
+console.log(typeof idade); // undefined
+
+// Por que esse tipo foi impresso?
+// omo não atribui nenhum valor as variáveis 'nome' e 'idade', elas são undefined, não nada foi definido
+
+//prompt:
+nome = prompt("Qual é o seu nome?");
+idade = prompt("Quantos anos você tem?");
+
+//typeof:
+console.log(typeof nome); // vai imprimir string
+console.log(typeof idade); // vai imprimir string
+console.log("Olá, " + nome + ", você tem " + idade + " anos.");
+
 
