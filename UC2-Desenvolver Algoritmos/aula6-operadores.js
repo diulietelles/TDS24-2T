@@ -110,3 +110,5 @@ console.log(primeiroNumero === segundoNumero)
 console.log(primeiroNumero !== segundoNumero)
 console.log(primeiroNumero > segundoNumero)
 console.log(primeiroNumero < segundoNumero)
+
+
