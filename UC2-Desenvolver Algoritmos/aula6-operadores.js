@@ -27,7 +27,7 @@ console.log('O resultado da divisao é: ', resultado4)
 // Exemplo 5:
 const primeiroValor5 = 11%4
 console.log('O resultado do resto da divisao é: ', primeiroValor5)
-*/
+
 //Exercicios:
 //Somar 3 com 4:
 const soma = 3 + 4
@@ -44,3 +44,58 @@ console.log('O resultado da subtracao é: ', subtracao)
 // Determinar o resto da divisão de 234 por 5:
 const resto = 234%5
 console.log('O resultado do resto da divisao é: ', resto)
+*/
+
+//************************* Comparadores ****************************//
+
+/**********Exemplo 1: comparador igual === :
+
+const condicao = 1 === 1
+console.log('Condição de valor: ', condicao)
+
+const condicao2 = 1 === '1'
+console.log('Condição de valor e tipo igual:' , condicao2)
+
+//*********Exemplo 2: comparador diferente !== :
+
+const condicao3 = 1 !== "1"
+console.log('Condição de valor: ', condicao3) 
+
+const condicao4 = 1 !== 1
+console.log('Condição de valor: ', condicao4)
+
+const condicao5 = 2 !== 1
+console.log('Condição de valor: ', condicao5) 
+
+
+//*********Exemplo 3: comparador maior e maior igual > e >= :
+
+const condicao = 1 > 2
+console.log('Condição de valor: ', condicao)
+
+const condicao1 = 2 > 2
+console.log('Condição de valor: ', condicao1)
+
+const condicao2 = 2 >= 2
+console.log('Condição de valor: ', condicao2)
+
+const condicao3 = 3 > 2
+console.log('Condição de valor: ', condicao3)
+
+
+//*********Exemplo 4: comparador menor e menor igual < e <= :
+
+const condicao = 1 < 2
+console.log('Condição de valor: ', condicao)
+
+const condicao1 = 2 < 2
+console.log('Condição de valor: ', condicao1)
+
+const condicao2 = 2 <= 2
+console.log('Condição de valor: ', condicao2)
+
+const condicao3 = 3 < 2
+console.log('Condição de valor: ', condicao3)
+*/
+
+
