@@ -68,7 +68,7 @@ console.log(typeof nome) // vai imprimir string
 console.log(typeof idade) // vai imprimir number
 //7
 console.log("Olá, " + nome + ", você tem " + idade + " anos.")
-*/
+
 
 //Exercicio 2:
 /* escreva um programa que faca 3 perguntas de sim ou nao armazenando em uma variavel. Ex: voce esta usqando roupa azul hoje?
@@ -84,10 +84,10 @@ let resposta3 = prompt('Você gosta de ler livros?')
 // b
 console.log('Você gosta de sushi?' + resposta1)
 console.log('Você tomou café da manhã? ' + resposta2)
-console.log('Você gosta de ler livros? ' + resposta3)*/
+console.log('Você gosta de ler livros? ' + resposta3)
+*/
 
-
-//Exercicio 3:
+///Exercicio 3:
 
 let a = 10
 let b = 25
