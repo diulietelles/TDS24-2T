@@ -98,4 +98,15 @@ const condicao3 = 3 < 2
 console.log('Condição de valor: ', condicao3)
 */
 
+//Exercicios:
 
+// O primeiro numero é igual ao segundo? true/false
+// o primeiro numero é  diferente do segundo? true/false
+// o primeiro numero é maior que o segundo? true/false
+// o primeiro numero é menor que o segundo? true/false
+const primeiroNumero = prompt("Digite o primeiro número:")
+const segundoNumero = prompt("Digite o segundo número:")
+console.log(primeiroNumero === segundoNumero)
+console.log(primeiroNumero !== segundoNumero)
+console.log(primeiroNumero > segundoNumero)
+console.log(primeiroNumero < segundoNumero)
