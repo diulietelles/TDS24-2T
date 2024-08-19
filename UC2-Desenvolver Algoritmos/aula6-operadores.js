@@ -30,23 +30,17 @@ console.log('O resultado do resto da divisao é: ', primeiroValor5)
 */
 //Exercicios:
 //Somar 3 com 4:
-const primeiroValor = 3
-const segundoValor = 4
-const resultado = primeiroValor + segundoValor 
-console.log('O resultado da soma é: ', resultado)
+const soma = 3 + 4
+console.log('O resultado da soma é: ', soma)
 
 //Multiplicar 3 com 5 e dividir o resultado por 2:
-const primeiroValor2 = 3
-const segundoValor2 = 5
-const resultado2 = (primeiroValor2 * segundoValor2) /2
-console.log('O resultado da multiplicação é: ', resultado2)
+const multiplicação = (3*5) /2
+console.log('O resultado da multiplicação é: ', multiplicação)
 
 // Subtrair 5 de 4 e multiplicar o resultador por -1:
-const primeiroValor3 = 5
-const segundoValor3 = 4
-const resultado3 = (primeiroValor3 - segundoValor3) * -1
-console.log('O resultado da subtracao é: ', resultado3)
+const subtracao = (5-4) * -1
+console.log('O resultado da subtracao é: ', subtracao)
 
 // Determinar o resto da divisão de 234 por 5:
-const primeiroValor4 = 234%5
-console.log('O resultado do resto da divisao é: ', primeiroValor4)
+const resto = 234%5
+console.log('O resultado do resto da divisao é: ', resto)
