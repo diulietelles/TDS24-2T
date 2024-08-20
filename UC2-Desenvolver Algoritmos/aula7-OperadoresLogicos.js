@@ -71,12 +71,12 @@ console.log(resultado)// inverte o valor, se true vira false
 
 let nome = prompt('Qual é o seu nome?')
 let anoNascimento = prompt('Em que ano você nasceu?')
-let anoAtual = 2024
+let anoAtual = prompt('Qual o ano atual?')
 let idade = anoAtual - anoNascimento
 let maiorIdade = idade >= 18
 let idade2050 = 2050 - anoNascimento
 console.log('Nome: ' + nome)
 console.log('Idade: ' + idade + ' anos')
 console.log('Maior de idade: ' + maiorIdade)
-console.log('Idade em 2050:' + idade2050 + ' anos')
+console.log('Idade em 2050: ' + idade2050 + ' anos')
 
