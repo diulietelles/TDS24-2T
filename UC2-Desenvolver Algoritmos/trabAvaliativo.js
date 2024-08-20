@@ -29,19 +29,19 @@ Aqui está a implementação do algoritmo em JavaScript, utilizando a função
 prompt() para solicitar a entrada do usuário.
 */
 
+let numeroUsuario = prompt("Digite um número para verificar se é par ou ímpar:")
+verificarParImpar(numeroUsuario)
+
 function verificarParImpar(numero) {
     let resultado;
     if (numero % 2 === 0) {
-        resultado = "Par";
+        resultado = "Par"
     } else {
-        resultado = "Ímpar";
+        resultado = "Ímpar"
     }
-    console.log(O número ${numero} é ${resultado}.);
+    console.log(`O número ${numero} é ${resultado}.`)
 }
 
-// Solicita ao usuário que insira um número
-let numeroUsuario = prompt("Digite um número para verificar se é par ou ímpar:")
-verificarParImpar(numeroUsuario)
 
 /*
 4. Documentação dos Resultados
