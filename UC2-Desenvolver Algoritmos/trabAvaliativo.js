@@ -1,20 +1,17 @@
-/*
----------------------------------------------------------
+/*----------
 Trabalho Avaliativo: Validação de Algoritmos
 ---------------------------------------------------------
 
-1. Funcionalidade do Algoritmo:
+1. Funcionalidade do Algoritmo
 ---------------------------------------------------------
 Algoritmo Selecionado: Verificar se um número é par ou ímpar.
 
-Descrição: O algoritmo verifica se um número inteiro, fornecido pelo usuário, 
-é par ou ímpar.
+Descrição: O algoritmo verifica se um número inteiro, fornecido pelo usuário, é par ou ímpar.
 
-Entrada: Um número inteiro fornecido pelo usuário via entrada de dados.
+Entrada: Um número inteiro fornecido pelo usuário via prompt.
 
-Saída Esperada: string 'Par' se o número for par, ou 'Ímpar' se o número for 
-ímpar. O resultado é exibido no console com a mensagem: 
-`O número [número] é [Par/Ímpar].`
+Saída Esperada: “Par" se o número for par, ou "Ímpar" se o número for ímpar. O resultado é exibido no console com a mensagem: 
+O número [número] é [Par/Ímpar]
 
 2. Conjunto de Testes
 ---------------------------------------------------------
@@ -29,22 +26,22 @@ Saída Esperada: string 'Par' se o número for par, ou 'Ímpar' se o número for
 3. Implementação do Algoritmo
 ---------------------------------------------------------
 Aqui está a implementação do algoritmo em JavaScript, utilizando a função 
-`prompt()` para solicitar a entrada do usuário.
+prompt() para solicitar a entrada do usuário.
 */
+
+let numeroUsuario = prompt("Digite um número para verificar se é par ou ímpar:")
+verificarParImpar(numeroUsuario)
 
 function verificarParImpar(numero) {
     let resultado;
     if (numero % 2 === 0) {
-        resultado = "Par";
+        resultado = "Par"
     } else {
-        resultado = "Ímpar";
+        resultado = "Ímpar"
     }
-    console.log(`O número ${numero} é ${resultado}.`);
+    console.log(`O número ${numero} é ${resultado}.`)
 }
 
-// Solicita ao usuário que insira um número
-let numeroUsuario = prompt("Digite um número para verificar se é par ou ímpar:")
-verificarParImpar(numeroUsuario)
 
 /*
 4. Documentação dos Resultados
@@ -59,21 +56,15 @@ verificarParImpar(numeroUsuario)
 
 5. Análise dos Resultados
 ---------------------------------------------------------
-Todos os testes passaram, indicando que o algoritmo funciona corretamente para 
-diferentes tipos de números (positivos, negativos e zero). O algoritmo determina 
+Todos os testes passaram, o algoritmo funciona corretamente. O algoritmo determina 
 corretamente se o número é par ou ímpar usando o operador de módulo (%), que 
 verifica se o número é divisível por 2.
 
 Não houve falhas durante os testes, portanto, não foi necessário realizar correções 
-no algoritmo. A implementação atende às expectativas e pode ser considerada completa 
-e funcional.
+no algoritmo. A implementação atende às expectativas e é funcional.
 
 6. Conclusão
 ---------------------------------------------------------
-O algoritmo desenvolvido é eficiente e simples, utilizando o operador de módulo para 
-determinar a paridade de um número. A interface de entrada permite que o usuário insira 
-qualquer número, e o algoritmo responde corretamente com a classificação "Par" ou 
-"Ímpar". Todos os casos de teste foram abrangentes e testaram a funcionalidade do 
-algoritmo de maneira adequada.
+ O algoritmo responde corretamente com a classificação "Par" ou "Ímpar". Todos os casos de testes está de maneira adequada.
 ---------------------------------------------------------
 */
