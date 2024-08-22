@@ -109,7 +109,7 @@ const soma = primeiroNumero + segundoNumero //  soma dos convertidos
 console.log(soma) 
 
 
-//********************************EXERCICIOS DE ESCRITA:***********************************
+//********************************EXERCICIOS DE ESCRITA:*********************************** //
 
 //exercicio 1:
 let idadeUsuario = Number(prompt('Qual é a sua idade?'))
@@ -130,7 +130,7 @@ console.log('O resto da divisão do número por 2 é:', resto)
 //exercicio 3:
 
 let idadeAnos = prompt('Qual é a sua idade em anos?') 
-idadeAnos = idadeAnos//Converte a entrada para inteiro
+idadeAnos = idadeAnos//converte a entrada para inteiro
 let idadeMeses = idadeAnos * 12
 let idadeDias = idadeAnos * 365
 let idadeHoras = idadeDias * 24
