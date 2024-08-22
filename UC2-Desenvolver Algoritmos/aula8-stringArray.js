@@ -81,11 +81,19 @@ const numeros = [1,2,3]
 numeros.push(4)
 console.log(numeros)
 numeros.push(5,6,7,8)
-console.log(numeros)*/
+console.log(numeros)
 
 // Pop:
 
 const meuspeixes = ['palhaco','mandarim','esturjao']
 console.log(meuspeixes)
 meuspeixes.pop()
-console.log(meuspeixes)
+console.log(meuspeixes)*/
+
+// Splice:
+const letras = ['a','b', 'c','d', 'e','f','g','h']
+
+letras.splice(2,1)
+console.log(letras)
+letras.splice(5,2)
+console.log(letras)
