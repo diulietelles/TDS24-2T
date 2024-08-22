@@ -44,7 +44,7 @@ console.log('Length:', frase.length)
     
 //************************* Arrays **************************** //
 
-
+//Exemplo 1:
 const frutas = ['abacate', 'banana', 'tomate', 'milho','uva', 'morango']
 const fruta = frutas[4]
 console.log(frutas)
@@ -53,7 +53,7 @@ console.log(frutas)
 //*********Exercicio 3:
 const racaDogs = ['American Foxhound', 'French Bulldog', 'Golden Retriever', 'Beagle', 'Pinscher']
 console.log('Raça scolhida: ', racaDogs)
-const escolhaNumbero = prompt('Escolha entre 0 to 4: ')
+const escolhaNumbero = Number(prompt('Escolha entre 0 to 4: '))
 if (escolhaNumbero >= 0 && escolhaNumbero <= 4) {
     console.log('A raça correspondente é : ' + racaDogs[escolhaNumbero])
 } else {
