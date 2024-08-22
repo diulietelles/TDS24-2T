@@ -220,4 +220,4 @@ console.log('450xic equivalem a', xicParaL, 'l')
 const valorLb = prompt('Digite o valor em libras (lb) para converter em quilogramas (kg):')  
 
 const lbParaKgUser = valorLb * 0.453592  // converte o valor  libra para quilograma
-console.log(valorLb + 'lb equivalem a', lbParaKgUser, 'kg') */
+console.log(valorLb + 'lb equivalem a', lbParaKgUser, 'kg') 
