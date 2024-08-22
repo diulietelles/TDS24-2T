@@ -48,7 +48,6 @@ console.log('Length:', frase.length)
 const frutas = ['abacate', 'banana', 'tomate', 'milho','uva', 'morango']
 const fruta = frutas[4]
 console.log(frutas)
-*/
 
 //*********Exercicio 3:
 const racaDogs = ['American Foxhound', 'French Bulldog', 'Golden Retriever', 'Beagle', 'Pinscher']
@@ -61,7 +60,32 @@ if (escolhaNumbero >= 0 && escolhaNumbero <= 4) {
 }
 
 
+//************************* Protótipo de Arrays ***************** //
 
 
+//length: conta caracteres
 
+const gostos = ['sushi','chimarrao', 'livro','pet']
+console.log(gostos)// mostrar original
+console.log('Itens dentro do array: ', gostos.length) // 4 elementos dentro do array
 
+//Includes: inclue mais elementos
+
+const livrosBons = ['Desassossego','Sonho de uma noite de verao']
+console.log(livrosBons.includes('Desassossego'))
+console.log(livrosBons.includes('Vestidos Dior'))
+
+//Push : adiciona um ou mais elementos no final do array
+
+const numeros = [1,2,3]
+numeros.push(4)
+console.log(numeros)
+numeros.push(5,6,7,8)
+console.log(numeros)*/
+
+// Pop:
+
+const meuspeixes = ['palhaco','mandarim','esturjao']
+console.log(meuspeixes)
+meuspeixes.pop()
+console.log(meuspeixes)
