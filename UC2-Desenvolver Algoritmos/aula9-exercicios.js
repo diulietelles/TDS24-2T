@@ -82,7 +82,7 @@ let listaDeTarefas = []
 // b) 
 listaDeTarefas.push(prompt('Digite a primeira tarefa do seu dia a dia:'))
 listaDeTarefas.push(prompt("Digite a segunda tarefa do seu dia a dia:"))
-listaDeTarefas.push(prompt("Digite a terceira tarefa do seu dia a dia:"))
+listaDeTarefas.push(prompt('Digite a terceira tarefa do seu dia a dia:'))
 
 // c) 
 console.log('Suas tarefas:', listaDeTarefas)
