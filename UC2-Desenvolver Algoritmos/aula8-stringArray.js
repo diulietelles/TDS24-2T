@@ -5,7 +5,7 @@
 
 let nome = prompt('Digite seu nome:')
 let corFvorita = prompt('Digite sua cor favorita:')
-console.log(`A cor favorita de ${nome} é ${corFvorita}`)
+console.log(`A cor favorita de ${nome} é ${corFvorita}`) //template
 console.log('A cor favorita de ' + nome +  ' é ' + corFvorita)
 
 
@@ -69,7 +69,7 @@ const gostos = ['sushi','chimarrao', 'livro','pet']
 console.log(gostos)// mostrar original
 console.log('Itens dentro do array: ', gostos.length) // 4 elementos dentro do array
 
-//Includes: inclue mais elementos
+//Includes: busca por elementos
 
 const livrosBons = ['Desassossego','Sonho de uma noite de verao']
 console.log(livrosBons.includes('Desassossego'))
@@ -88,7 +88,7 @@ console.log(numeros)
 const meuspeixes = ['palhaco','mandarim','esturjao']
 console.log(meuspeixes)
 meuspeixes.pop()
-console.log(meuspeixes)*/
+console.log(meuspeixes)
 
 // Splice:
 const letras = ['a','b', 'c','d', 'e','f','g','h']
@@ -96,4 +96,4 @@ const letras = ['a','b', 'c','d', 'e','f','g','h']
 letras.splice(2,1)
 console.log(letras)
 letras.splice(5,2)
-console.log(letras)
+console.log(letras)*/
