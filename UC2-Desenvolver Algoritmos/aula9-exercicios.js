@@ -2,7 +2,8 @@
 
 //********************************EXERCICIOS DE INTERPRETAÇÃO:***********************************//
 
-
+//exercicio 1:
+/*
 let array
 console.log('a. ', array) 
 // a. undefined
@@ -32,3 +33,14 @@ const valor = array[i +6]
 console.log('f. ', valor)
 // f. 9
 //  acessa o sétimo elemento do array  que é 9
+*/
+
+//exercicio 2:
+
+const frase = prompt('Digite uma frase:')
+console.log(frase.toLocaleUpperCase().replaceAll('A','I'), frase.length)
+//Qual será o valor impresso no console se a entrada do usuario for: 'Subi num onibus em Marrocos'?
+
+//SUBI NUM ONIBUS EM MIRROCOS//27
+
+
