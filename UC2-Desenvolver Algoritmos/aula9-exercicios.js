@@ -33,7 +33,7 @@ const valor = array[i +6]
 console.log('f. ', valor)
 // f. 9
 //  acessa o sétimo elemento do array  que é 9
-*/
+
 
 //exercicio 2:
 
@@ -43,4 +43,56 @@ console.log(frase.toLocaleUpperCase().replaceAll('A','I'), frase.length)
 
 //SUBI NUM ONIBUS EM MIRROCOS//27
 
+
+
+//********************************EXERCICIOS DE ESCRITA:*********************************** //
+
+//exercicio 1:
+
+const  nomeDoUsuario = prompt('Digite seu nome:')
+const email = prompt('Digite seu email:')
+console.log(`O email ${email} foi cadastrado como sucesso. Seja bem-vinda(o), ${nomeDoUsuario}!`)
+
+//exercicio 2:
+
+// a) 
+let comidasFavoritas = ['Sushi', 'Pizza', 'Onigiri', 'Mexicana', 'Churrasco']
+console.log(comidasFavoritas)
+
+// b) 
+console.log('Essas são as minhas comidas favoritas:')
+console.log(comidasFavoritas[0])
+console.log(comidasFavoritas[1])
+console.log(comidasFavoritas[2])
+console.log(comidasFavoritas[3])
+console.log(comidasFavoritas[4])
+
+
+// c)
+let novaComida = prompt("Qual é a sua comida favorita?")
+comidasFavoritas[1] = novaComida */
+
+
+//exercicio 3:
+
+
+// a)
+let listaDeTarefas = []
+
+// b) 
+listaDeTarefas.push(prompt('Digite a primeira tarefa do seu dia a dia:'))
+listaDeTarefas.push(prompt("Digite a segunda tarefa do seu dia a dia:"))
+listaDeTarefas.push(prompt("Digite a terceira tarefa do seu dia a dia:"))
+
+// c) 
+console.log('Suas tarefas:', listaDeTarefas)
+
+// d) 
+let indice = Number(prompt('Digite o índice da tarefa que você já realizou: 0, 1 ou 2'))
+
+// e)
+listaDeTarefas.splice(indice, 1)
+
+// f) 
+console.log('Suas tarefas restantes:', listaDeTarefas)
 
