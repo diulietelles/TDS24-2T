@@ -1,4 +1,4 @@
-//Desafio:
+/*Desafio:
 //1
 let frase = 'Receba uma frase e retorne um array'
 let palavras = frase.split(' ')
@@ -99,9 +99,9 @@ function podeEstudarNaFaculdade(concluiuEnsinoMedio, idade, cursandoOutraFaculda
     }
 }
 
-
+*/
 // Desafio
-function jogarPedraPapelTesouraLagartoSpock(escolhaUsuario) {
+function jogarPPTLS(escolhaUsuario) {
     const escolhas = ['pedra', 'papel', 'tesoura', 'lagarto', 'spock']
     const escolhaComputador = escolhas[Math.floor(Math.random() * 5)]
 
@@ -159,4 +159,4 @@ function jogarPedraPapelTesouraLagartoSpock(escolhaUsuario) {
     }
 }
 
-jogarPedraPapelTesouraLagartoSpock('lagarto')
+jogarPPTLS('lagarto')
