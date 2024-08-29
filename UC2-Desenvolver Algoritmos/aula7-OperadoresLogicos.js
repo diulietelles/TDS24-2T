@@ -82,21 +82,22 @@ console.log('Idade em 2050: ' + idade2050 + ' anos')
 
 
 //********************************EXERCICIOS DE INTERPRETAÇÃO:***********************************//
-/*
+
+//exercicio 1:
 const bool1 = true 
 const bool2 = false 
 const bool3 = !bool2 
 
 let resultado = bool1 && bool2 // resultado recebe  AND entre bool1 e bool2, que é false
-console.log("a. ", resultado) // Imprime "a. false" 
+console.log("a. ", resultado) //a false
 
-resultado = bool1 && bool2 && bool3 // A variável resultado atualiza com AND entre bool1, bool2 e bool3, que ainda é false
-console.log("b. ", resultado) // Imprime "b. false" 
+resultado = bool1 && bool2 && bool3 // A variável resultado com AND entre bool1, bool2 e bool3, que ainda é false
+console.log("b. ", resultado) // b false
 
 resultado = resultado && (bool1 || bool2) // A variável resultado é atualizada com a operação lógica AND entre resultado que é false e a operação OR entre bool1 e bool2, resultando em false
-console.log("c. ", resultado)// Imprime "c. false"
+console.log("c. ", resultado)//  c false
 
-console.log("d. ", typeof resultado) // Imprime "d. boolean", pois o tipo é boolean
+console.log("d. ", typeof resultado) // d boollen, tipo é boolean
 
 
 
@@ -106,9 +107,10 @@ let primeiroNumero = Number(prompt('Digite um numero:')) // converte para númer
 let segundoNumero = Number(prompt('Digite outro numero:')) // converte para número
 const soma = primeiroNumero + segundoNumero //  soma dos convertidos
 console.log(soma) 
-*/
 
-//********************************EXERCICIOS DE ESCRITA:***********************************//
+
+//********************************EXERCICIOS DE ESCRITA:***********************************
+
 //exercicio 1:
 let idadeUsuario = Number(prompt("Qual é a sua idade?"))
 let idadeAmigo = Number(prompt("Qual é a idade do seu melhor amigo ou da sua melhor amiga?"))
@@ -122,5 +124,63 @@ console.log("Diferença de idade:", diferencaIdade)
 let numeroPar = Number(prompt("Insira um número par:"))
 let resto = numeroPar%2
 console.log("O resto da divisão do número por 2 é:", resto)
-// Sempre que inserimos um número par, o resto da divisão por 2 é 0.
-// Comentário: Se o usuário inserir um número ímpar, o resto da divisão por 2 será 1.
+// Sempre que um número par, o resto da divisão por 2 é 0.
+// Se o usuário inserir um número ímpar, o resto da divisão por 2 será 1.
+
+//exercicio 3:
+
+let idadeAnos = prompt("Qual é a sua idade em anos?") 
+idadeAnos = idadeAnos//Converte a entrada para inteiro
+let idadeMeses = idadeAnos * 12
+let idadeDias = idadeAnos * 365
+let idadeHoras = idadeDias * 24
+console.log("Sua idade em meses é: " + idadeMeses)
+console.log("Sua idade em dias é: " + idadeDias)
+console.log("Sua idade em horas é: " + idadeHoras)
+
+
+//exercicio 4:
+
+let numero1 = prompt('Digite o primeiro número:')
+let numero2 = prompt('Digite o segundo número:')
+console.log('O primeiro número é maior que o segundo?', numero1 > numero2)
+console.log('O primeiro número é igual ao segundo?', numero1 === numero2)
+console.log('O primeiro número é divisível pelo segundo?', numero1 % numero2 === 0)
+console.log('O segundo número é divisível pelo primeiro?', numero2 % numero1 === 0)
+
+
+// Desafio 1:
+// a
+let fahrenheit1 = 77
+let kelvin1 = (fahrenheit1 - 32) * (5/9) + 273.15//Converte para Kelvin
+console.log(fahrenheit1 + "°F é igual a " + kelvin1 + "K")
+
+// b:
+let celsius1 = 80
+let fahrenheit2 = (celsius1 * (9/5)) + 32// Converte para Fahr
+console.log(celsius1 + "°C é igual a " + fahrenheit2 + "°F")
+
+// c:
+let celsius2 = 30
+let fahrenheit3 = (celsius2 * (9/5)) + 32// Converte para Fahr
+let kelvin2 = celsius2 + 273.15// Converte para Kelvin
+console.log(celsius2 + "°C é igual a " + fahrenheit3 + "°F e " + kelvin2 + "K")
+
+// d:
+let celsius3 = prompt("Digite a temperatura em graus Celsius:")
+let fahrenheit4 = (celsius3 * (9/5)) + 32// Converte oara Farh
+let kelvin3 = celsius3 + 273.15// Converte para Kelvin
+console.log(celsius3 + "°C é igual a " + fahrenheit4 + "°F e " + kelvin3 + "K")
+
+// Desafio 2:
+
+// a:
+let consumo = 280//quilowatthora consumidos
+let custoPorKWh = 0.05 //custo por quilowatthora
+let valorAPagar = consumo * custoPorKWh// calcula o valor a ser pago
+console.log("O valor a ser pago por 280 kWh é R$" + valorAPagar)
+
+// b:
+let desconto = 15 
+let valorComDesconto = valorAPagar * (1 - desconto / 100)// desconto aplicado
+console.log("O valor a ser pago com 15% de desconto é R$" + valorComDesconto)
