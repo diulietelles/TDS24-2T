@@ -1,0 +1,259 @@
+
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #212121;
+    padding: 15px 0;
+}
+
+.logo h1 {
+    font-size: 28px;
+    margin: 0;
+    color: #f8f8f8;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #f8f8f8;
+    text-decoration: none;
+    font-size: 18px;
+    transition: transform 0.3s;
+}
+
+nav ul li a:hover {
+    transform: scale(1.1);
+}
+
+/* Hero */
+.hero {
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content h2 {
+    font-size: 36px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.cta-btn {
+    background-color: #ff6200;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: transform 0.3s;
+}
+
+.cta-btn:hover {
+    transform: scale(1.1);
+}
+
+/* Seção de Carros */
+.car-section {
+    padding: 30px 0;
+}
+
+.car-gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.car-item {
+    background-color: #282828;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.car-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.car-item h3 {
+    margin: 15px 0;
+}
+
+.car-item p {
+    font-size: 16px;
+}
+
+.car-item .btn {
+    background-color: #ff6200;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.car-item .btn:hover {
+    transform: scale(1.1);
+}
+
+/* Seção Extras */
+.extras-section {
+    padding: 30px 0;
+}
+
+.extras-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.extra-item {
+    background-color: #282828;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s;
+}
+
+.extra-item h3 {
+    margin: 15px 0;
+}
+
+.extra-item p {
+    font-size: 16px;
+}
+
+.extra-item:hover {
+    transform: scale(1.05);
+}
+
+/* Seção Sobre */
+.about-section {
+    padding: 30px 0;
+    background-color: #212121;
+}
+
+/* Seção Contato */
+.contact-section {
+    padding: 30px 0;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-section input, 
+.contact-section textarea, 
+.contact-section button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.contact-section input, 
+.contact-section textarea {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.contact-section button {
+    background-color: #ff6200;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-section button:hover {
+    background-color: #e55d00;
+}
+
+/* Rodapé */
+footer {
+    background-color: #212121;
+    padding: 15px 0;
+    text-align: center;
+}
+
+/* Botão de Voltar ao Topo */
+.scroll-to-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff6200;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 60px; /* Aumenta o tamanho do botão */
+    height: 60px; /* Aumenta o tamanho do botão */
+    text-align: center;
+    line-height: 60px; /* Centraliza o texto verticalmente */
+    font-size: 24px; /* Ajusta o tamanho do ícone */
+    cursor: pointer;
+    display: none; /* Inicialmente oculto */
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.scroll-to-top-btn:hover {
+    background-color: #e55d00;
+    transform: scale(1.1);
+}
+/* Botão de Voltar ao Topo */
+.scroll-to-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff6200; /* Cor laranja */
+    color: #fff;
+    border: none;
+    border-radius: 50%; /* Forma redonda */
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.scroll-to-top-btn:hover {
+    background-color: #e55d00; /* Cor laranja mais escura ao passar o mouse */
+    transform: scale(1.1);
+}
