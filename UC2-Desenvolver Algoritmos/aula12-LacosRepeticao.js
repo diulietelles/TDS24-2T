@@ -102,7 +102,7 @@ for(let dados of numeros){
 const palavras = ['Oi ' + 'sumido, ' + 'tudo ' + 'bem ?' + ' Saudades!']
 for(let frase of palavras){
     console.log(frase)
-}*/
+}
 
 
 const numeros = [11,15,18,14,12,13]
@@ -112,5 +112,19 @@ for (let numero of numeros) {
         somar += numero
         
     }
-    console.log(somar)
+    console.log(somar)*/
+
+
+
+    /*
+encontrar as palavras mais longas de um array
+dado um array de palavras, use um loop for... of para encontrar e armazenar as palavras que tem o maior cmprimento
+armazene as palavras mais longas em um array palavrasMaisLongas
+se houver mais de uma palavra com o maior comprimento, inclua todas
+
+
+
+
+    */
        
+
