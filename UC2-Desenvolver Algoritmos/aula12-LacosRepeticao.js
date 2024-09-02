@@ -124,8 +124,6 @@ se houver mais de uma palavra com o maior comprimento, inclua todas*/
 
 
 let palavras = ["desenvolvimento", "chimarrao", "JavaScript", "programação", "sushi"]
-
-// Inicializa as variáveis para armazenar as palavras mais longas e o comprimento máximo
 let palavrasMaisLongas = []
 let maxLength = 0
 
@@ -138,7 +136,7 @@ for (let palavra of palavras) {
         palavrasMaisLongas.push(palavra) // Adiciona a palavra ao array se tiver o mesmo comprimento máximo
     }
 }
-console.log('As palavras mais longas são:', palavrasMaisLongas);
+console.log('As palavras mais longas são:', palavrasMaisLongas)
 
 
     
