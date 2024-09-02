@@ -96,10 +96,21 @@ console.log('A soma dos números pares é:', somaPares)
 const numeros = [14,67,89,15,23]
 for(let dados of numeros){
     console.log(dados)
-}*/
+}
 
 
 const palavras = ['Oi ' + 'sumido, ' + 'tudo ' + 'bem ?' + ' Saudades!']
 for(let frase of palavras){
     console.log(frase)
-}
+}*/
+
+
+const numeros = [11,15,18,14,12,13]
+let somar = 0
+for (let numero of numeros) {
+    if (numero  %2 === 0) 
+        somar += numero
+        
+    }
+    console.log(somar)
+       
