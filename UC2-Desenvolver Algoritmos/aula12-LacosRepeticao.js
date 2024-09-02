@@ -120,11 +120,26 @@ for (let numero of numeros) {
 encontrar as palavras mais longas de um array
 dado um array de palavras, use um loop for... of para encontrar e armazenar as palavras que tem o maior cmprimento
 armazene as palavras mais longas em um array palavrasMaisLongas
-se houver mais de uma palavra com o maior comprimento, inclua todas
+se houver mais de uma palavra com o maior comprimento, inclua todas*/
 
 
+let palavras = ["desenvolvimento", "chimarrao", "JavaScript", "programação", "sushi"]
+
+// Inicializa as variáveis para armazenar as palavras mais longas e o comprimento máximo
+let palavrasMaisLongas = []
+let maxLength = 0
 
 
-    */
-       
+for (let palavra of palavras) {
+    if (palavra.length > maxLength) {
+        maxLength = palavra.length // Atualiza o comprimento máximo
+        palavrasMaisLongas = [palavra] // Reinicia o array com a nova palavra mais longa
+    } else if (palavra.length === maxLength) {
+        palavrasMaisLongas.push(palavra) // Adiciona a palavra ao array se tiver o mesmo comprimento máximo
+    }
+}
+console.log('As palavras mais longas são:', palavrasMaisLongas);
+
+
+    
 
