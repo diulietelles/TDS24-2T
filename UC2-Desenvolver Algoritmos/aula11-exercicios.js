@@ -23,6 +23,8 @@
 
 
 
+
+
 //Exercicio 3:
 
 //a) está pedindo ao usuário para inserir um número e converte  entrada para um tipo number
@@ -146,15 +148,17 @@ if (tipoJogo === 'IN') {
 }
 
 //valor total dos ingressos:
+
+
 const valorTotal = valorIngresso * quantidaIngressos
 
-console.log('¨¨¨¨ Dados da compra ¨¨¨¨')
+console.log('|¨¨¨¨ Dados da compra ¨¨¨¨|')
 console.log('Nome do Cliente:', nomeCompleto)
 console.log('Tipo de Jogo:', tipoJogo === 'IN' ? 'Internacional' : 'Doméstico')
 console.log('Etapa do Jogo:', etapaJogo === "SF" ? 'Semifinal' : etapaJogo === 'DT' ? 'Decisão do 3º lugar' : 'Final')
 console.log('Categoria:', categoria)
 console.log('Quantidade de Ingressos:', quantidaIngressos)
-console.log('Valor do Ingresso: R$', valorIngresso.toFixed(2))
+console.log('Valor do Ingresso: R$', valorIngresso.toFixed(2)) //toFixed: para arredondar os numeros ou 2 casas
 console.log('Valor Total: R$', valorTotal.toFixed(2))
 
 
