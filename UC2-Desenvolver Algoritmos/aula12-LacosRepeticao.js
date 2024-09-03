@@ -123,7 +123,7 @@ armazene as palavras mais longas em um array palavrasMaisLongas
 se houver mais de uma palavra com o maior comprimento, inclua todas*/
 
 
-let palavras = ["desenvolvimento", "chimarrao", "JavaScript", "programação", "sushi"]
+let palavras = ["dev", "chimarrao", "JavaScript", "programação", "sushi"]
 let palavrasMaisLongas = []
 let maxLength = 0
 
