@@ -22,6 +22,7 @@ let soma = 0
 console.log('Soma de 5 números:')  
 for (let i = 1; i <= 5; i++) {  // laço que percorre 5 numeros
     let numero = Number(prompt(`Digite o número ${i}:`))
+    
     soma += numero  // Soma o número fornecido à variável soma
 }
 console.log('Soma total: ' + soma)  
