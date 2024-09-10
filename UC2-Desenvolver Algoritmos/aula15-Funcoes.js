@@ -144,7 +144,7 @@ console.log(`A area é: ${area}`)*/
 
 
 
-/*Exercicios:
+/*Exercicios
 
 //2
 const imprimirSoma = function(num1, num2){
@@ -158,16 +158,14 @@ const calculaDobro = (numero)=>{
    return numero * 2
 }
 const numero = Number(prompt('Digite um numero:'))
-console.log('O dobro de', numero, 'é', calculaDobro(numero))
+console.log('O dobro de', numero, 'é', calculaDobro(numero))*/
 
 
-// funcoes anonimas: foi declarado com expressoes de funcoes ou arrow funcnion*/
+/* funcoes anonimas: foi declarado com expressoes de funcoes ou arrow funcnion
 
 // Exercicio 5:
-
-/*
-criar uma funcao chamada deterrminaMonstro que recebe algumas caracteristicas em booleans e determina se a criatura é um vampiro, um 
-lobsomem ou um humano
+criar uma funcao chamada deterrminaMonstro que recebe algumas caracteristicas em booleans e determina 
+se a criatura é um vampiro, um lobsomem ou um humano
 a funcao deve retornar uma string com o tipo de criatura
 coloque consf=dicoes dentro da funcaao para identifdicar a criatura
 dicas de caracteristicas: temPeleGelada, transformaComLuaCheia, brilhaAoSol, temSededeSangue*/
@@ -189,5 +187,6 @@ function determinaMonstro(temPeleGelada, transformaComLuaCheia, brilhaAoSol, tem
 console.log(determinaMonstro(true, false, true, true)) 
 console.log(determinaMonstro(false, true, false, false)) 
 console.log(determinaMonstro(false, false, false, false)) 
+
 
 
