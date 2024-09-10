@@ -2,7 +2,7 @@
 
 //********************************EXERCICIOS DE INTERPRETAÇÃO:***********************************//
 
-/* exercicio 1:
+/* exercicio 1:  
 
 
 a) retorna o valor da variável multiplicado por 5
@@ -21,7 +21,7 @@ b) As saídas  são todas true, já que em todos os casos a palavra 'cenoura' es
 
 //********************************EXERCICIOS DE ESCRITA:*********************************** */
 
-// Exercicio 1:
+/*  Exercicio 1:  */
 
 
 function informacoesSobreCaio() {
@@ -35,7 +35,7 @@ function informacoesSobreMim() {
   informacoesSobreMim()
 
 
-  /* Exercicio 2: 
+  /* Exercicio 2: */
 
 
 // a) 
@@ -66,7 +66,7 @@ function processarMensagem(mensagem) {
 processarMensagem('eu adoro chimarrão')  
 
 
-// Exercício 3
+/* Exercício 3:  */ 
 
 function soma(a, b) {
   return a + b  
@@ -97,7 +97,7 @@ console.log('Divisão:', divisao(num1, num2))*/
 
 
 
-/* Desafio 1:
+// Desafio 1:
 
 //a) Arrow function:
 const imprimirParametro = parametro => {
@@ -112,58 +112,48 @@ const imprimirParametro = parametro => {
   somarEImprimir(10, 15) 
 
 
-/* Desafio 2:*/
-
-function adicionarItem(inventario, item) {   // add um item ao inventario
-  if (inventario.length >= 5) {  // Verifica se já tem 5 itens
-    console.log('O inventário está cheio') 
-    return inventario  // retorna sem alteracooes
-  }
-  inventario.push(item)  // add item
-  return inventario  //atualiza inventario
-}
-
-function removerItem(inventario, item) {
-  const index = inventario.indexOf(item)   //encontra o índice do item 
-  if (index === -1 ) {  // item não foi encontrado
-
-console.log('O item não foi encontrado')  
-return inventario 
-  }
-inventario.splice(index, 1)  // Remove o item 
-return inventario  
-}
-
-
-function listarItens(inventario) {
-    if (inventario.length === 0) {  //se o inventário está vazio
-    console.log('O inventário está vazio')
+// Desafio 2
+function adicionarItem(inventario, item) {
+    if (inventario.length >= 5) {  
+      console.log('Inventário cheio')  
     } else {
-    console.log('Itens no inventário:')  
-    inventario.forEach(item => console.log(item))  
+      inventario.push(item)  // add um item
+      console.log(`Item "${item}" adicionado ao inventário`)  /
     }
+}
+  
+  
+  function removerItem(inventario, item) {
+    const index = inventario.indexOf(item)  // encontra item
+    if (index === -1) {  
+      console.log('Item não encontrado')  
+    } else {
+      inventario.splice(index, 1)  // rm o item
+      console.log(`Item "${item}" removido do inventário`)  
     }
-    
-    let inventario = []  // inventário vazio
-    
-    inventario = adicionarItem(inventario, 'Espada')  // add item
-    inventario = adicionarItem(inventario, 'Escudo')  //add outro item
-    inventario = adicionarItem(inventario, 'Poção')    // ''
-    inventario = adicionarItem(inventario, 'Flecha')   //  ''
-    inventario = adicionarItem(inventario,'Arco')      //  ''
-    inventario = adicionarItem(inventario, 'Lanterna') //tenta adicionar item quando inventário está cheio
-    
-    inventario = removerItem(inventario, 'Poção')  // rm um item
-    inventario = removerItem(inventario, 'Cajado')  // tenta remover um item que não existe
-    
-    listarItens(inventario)  // Lista todos itens
-    
-    
-    
-    
-
-
-
+  }
+  
+  function listarItens(inventario) {
+    if (inventario.length === 0) {  // se vazio
+      console.log('Inventário vazio')  
+    } else {
+      console.log('Itens no inventário:', inventario)  //lista os itens
+    }
+  }
+  
+  
+  let inventario = []  // comecar vazio
+  
+  adicionarItem(inventario, 'Espada')  // add 'Espada'
+  adicionarItem(inventario, 'Escudo')  // add 'Escudo'
+  adicionarItem(inventario, 'Poção')  // add 'Poção'
+  adicionarItem(inventario, 'Arco')  // add 'Arco'
+  adicionarItem(inventario, 'Flechas')  // add 'Flechas'
+  adicionarItem(inventario, 'Lanterna')  // tenta adicionar item extra
+  
+  removerItem(inventario, 'Poção')  // rm 'Poção'
+  removerItem(inventario, 'Cajado')  // tenta um item que nao tem na lista
+  listarItens(inventario)  // lista todos os itens
 
 
 
