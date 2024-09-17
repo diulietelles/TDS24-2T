@@ -42,3 +42,27 @@ function realizarAcao(nome, acao) {
   console.log('Personagem encontrado.')
 }
 
+
+// Cadastra o personagem Aragorn
+cadastrarPersonagem('Aragorn"', 'Guerreiro', 10, 100, ['Espada', 'Liderança'])
+
+// Cadastra o personagem Legolas
+cadastrarPersonagem('Legolas', 'Arqueiro', 8, 90, ['Arco e Flecha', 'Visão Aguçada'])
+
+// Aragorn realiza uma ação
+realizarAcao('Aragorn', 'Atacar com espada')
+
+// Legolas realiza uma ação
+realizarAcao('Legolas', 'Disparar flecha')
+
+// Lista todos os personagens
+listarPersonagens()
+
+// Verifica o status de Aragorn
+verificarStatus('Aragorn')
+
+// Exclui o personagem Legolas
+excluirPersonagem('Legolas')
+
+// Lista os personagens restantes
+listarPersonagens()
