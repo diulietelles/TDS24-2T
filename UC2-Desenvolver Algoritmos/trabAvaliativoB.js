@@ -21,39 +21,24 @@ A listagem de personagens deve ser feita em ordem alfabética. */
 
 
 
-// array para cadastrar personagens:
+
+// Array para armazenar os personagens:
 let personagens = []
 
-// Função para cadastro de Personagens:
+// Função para Cadastro de Personagens:
 function cadastrarPersonagem(nome, classe, nivel, hp, habilidades) {
-  let personagem = {
-    nome: nome,
-    classe: classe,
-    nivel: nivel,
-    hp: hp,
-    habilidades: habilidades,
-    historicoAcoes: []
-  }
+  // Adiciona um novo personagem ao array
+  personagens.push({ nome, classe, nivel, hp, habilidades, historicoAcoes: [] })
+
+
 }
 
-// função Ações dos Personagens:
-
-
-// Histórico de Ações:
-
-
-
-// Busca de Personagens por Nome:
-
-
-
-// Exclusão de personagens:
-
-
-
-// Listas Todos os Personagens:
-
-
-
-// Verificar Status do Personagem:
+// Função para Ações dos Personagens:
+function realizarAcao(nome, acao) {
+  // Busca o personagem pelo nome
+  let personagem = buscarPersonagem(nome)
+  // Se o personagem for encontrado, adiciona a ação ao histórico personagem:
+  personagem.historicoAcoes.push(acao) 
+  console.log('Personagem encontrado.')
+}
 
