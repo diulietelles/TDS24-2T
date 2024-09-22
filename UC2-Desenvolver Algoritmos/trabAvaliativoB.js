@@ -8,7 +8,7 @@ let personagens = []
 /* 
    - Objetivo: Criar um novo personagem a partir das informações fornecidas pelo usuário.
    - Entradas: Solicita ao usuário o nome, classe, nível, pontos de vida (HP) e habilidades do personagem.
-   - Processo: Utiliza o método split para dividir a string de habilidades em um array, onde a vírgula separa
+   - Processo: split para dividir a string de habilidades em um array, onde a vírgula separa
    - Saída: Retorna um objeto que representa o personagem, contendo suas propriedades e um histórico de ações vazio.
 */
 function criarPersonagemComPrompt() {
