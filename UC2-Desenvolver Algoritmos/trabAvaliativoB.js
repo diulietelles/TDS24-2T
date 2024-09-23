@@ -115,7 +115,7 @@ HP:  4 caracteres no total
             '| ' + personagem.classe + ' '.repeat(14 - personagem.classe.length) + 
             '| ' + personagem.nivel + ' '.repeat(6 - personagem.nivel.toString().length) + 
             '| ' + personagem.hp + ' '.repeat(4 - personagem.hp.toString().length) + '|'
-        );
+        )
     }
 
     // Imprime a linha final da tabela
