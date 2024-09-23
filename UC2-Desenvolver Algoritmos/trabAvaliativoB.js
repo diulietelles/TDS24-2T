@@ -199,3 +199,5 @@ function menu() {
 
 // Iniciar o menu do sistema
 menu() // Chama a função 'menu' para iniciar o sistema e exibir o menu para o usuário
+
+nome dos integrantes: Diulie Telles, Vitoria Faller Bier, Talita Naibert
