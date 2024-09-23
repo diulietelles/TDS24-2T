@@ -88,17 +88,17 @@ function buscarPersonagem(nome) {
 // Função para listar todos os personagens em formato de tabela
 function listarPersonagens() {
     // Imprime a linha inicial da tabela
-    console.log('--------------------------------------------------')
+    console.log('---------------------------------------------------------------------')
 
     // Imprime o cabeçalho da tabela com as colunas Nome, Classe, Nível e HP
-    console.log('| Nome            | Classe        | Nível | HP  |')
+    console.log('| Nome            | Classe        | Nível               | HP         |')
 
     // Imprime a linha que separa o cabeçalho dos dados
-    console.log('--------------------------------------------------')
+    console.log('----------------------------------------------------------------------')
 
     // loop que percorre todo o array de personagens
     for (let i = 0; i < personagens.length; i++) {
-        const personagem = personagens[i]; // Acessa o personagem atual no índice 'i'
+        const personagem = personagens[i] // Acessa o personagem atual no índice 'i'
 
 
 /* Concatena e imprime as informações de nome, classe, nível e HP do personagem atual
@@ -113,14 +113,16 @@ HP:  4 caracteres no total
         console.log(
             '| ' + personagem.nome + ' '.repeat(16 - personagem.nome.length) + 
             '| ' + personagem.classe + ' '.repeat(14 - personagem.classe.length) + 
-            '| ' + personagem.nivel + ' '.repeat(6 - personagem.nivel.toString().length) + 
-            '| ' + personagem.hp + ' '.repeat(4 - personagem.hp.toString().length) + '|'
+            '| ' + personagem.nivel + ' '.repeat(20 - personagem.nivel.toString().length) + 
+            '| ' + personagem.hp + ' '.repeat(14 - personagem.hp.toString().length) + '|'
         )
     }
 
     // Imprime a linha final da tabela
-    console.log('--------------------------------------------------');
+    console.log('----------------------------------------------------------------------')
 }
+
+
 
 
 /* 
