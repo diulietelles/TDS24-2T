@@ -113,15 +113,15 @@ console.log(matriz)
 
 let soma = somarMatriz(matriz)
 console.log(`Soma de todos os elementos: ${soma}`)
-[
-  [ 1, 2, 3, 4 ],
+
+  [[ 1, 2, 3, 4 ],
   [ 5, 6, 7, 8 ],
   [ 9, 10, 11, 12 ],
   [ 13, 14, 15, 16 ]
-]
+  ]
 
-
-
+// jogo batak=lha naval:
+// afundar todos os navios, cria uma matriz bidimensional onde cda celular sera inicializar 0(representando agua), criar uma funcao para posicionar os navios, celular com navio sera marcada com 1, criar uma funcao que permite ao jogador escolher uma celula, verificando se e acerto(navio), erro(agua) ou posição ja escolhida. criar um laço(loop) para permitir que o jogador constinue atacando aque que todos os navios sejam afundados e encerrar jogo quando todos os navios afundados.
 
 
 
