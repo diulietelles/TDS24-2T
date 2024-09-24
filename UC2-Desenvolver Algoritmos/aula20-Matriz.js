@@ -77,11 +77,13 @@ for(let i=0; i<matriz5.lenght; i++){
 }
 console.log(soma)*/
 
+const { questionNewPassword } = require("readline-sync")
+
 /* Exercicios:
 PERCORRENDO UMA MATRIZ:
 // crie uma matriz 4x4 e preencha com numeros interiros de 1 a 16
 // crie uma funcao que percorre a matriz e calcula a soma de tosos os elementos
-// exiba a soma no console */
+// exiba a soma no console 
 
 
 function criarMatriz() {
@@ -119,9 +121,40 @@ console.log(`Soma de todos os elementos: ${soma}`)
   [ 9, 10, 11, 12 ],
   [ 13, 14, 15, 16 ]
   ]
+*/
 
-// jogo batak=lha naval:
-// afundar todos os navios, cria uma matriz bidimensional onde cda celular sera inicializar 0(representando agua), criar uma funcao para posicionar os navios, celular com navio sera marcada com 1, criar uma funcao que permite ao jogador escolher uma celula, verificando se e acerto(navio), erro(agua) ou posição ja escolhida. criar um laço(loop) para permitir que o jogador constinue atacando aque que todos os navios sejam afundados e encerrar jogo quando todos os navios afundados.
+
+/* jogo batalha naval:
+ afundar todos os navios, cria uma matriz bidimensional onde cda celular sera inicializar 0(representando agua), criar uma funcao para posicionar os navios, celular com navio sera marcada com 1, criar uma funcao que permite ao jogador escolher uma celula, verificando se e acerto(navio), erro(agua) ou posição ja escolhida. criar um laço(loop) para permitir que o jogador constinue atacando aque que todos os navios sejam afundados e encerrar jogo quando todos os navios afundados.*/
+
+
+
+let tabuleiro = [
+    [0,0,0,0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0,0,0,0],
+    [0,0,0,0,0,0,0,0,0,0]
+]
+
+function setarNavios(){
+    tabuleiro[5][6] = 1
+    tabuleiro[5][6] = 1
+    tabuleiro[5][6] = 1
+    tabuleiro[5][6] = 1
+    tabuleiro[5][6] = 1
+}
+let soma = 0
+for(let i = 0.i<tabuleiro.length;i++){
+    for(let j=0;j<tabuleiro[i].length; j++)
+        questidadeNavios+=tabuleiro[i][j]
+}
+let escolhaLinha = Number(prompt('escolha a linha que deseja atacar'))
+
+
+
+
+
 
 
 
