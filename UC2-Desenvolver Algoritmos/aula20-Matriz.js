@@ -150,9 +150,13 @@ for(let i = 0.i<tabuleiro.length;i++){
         questidadeNavios+=tabuleiro[i][j]
 }
 let escolhaLinha = Number(prompt('escolha a linha que deseja atacar'))
+let escolhaColuna = Number(prompt('escolha a coluna que deseja atacar'))
 
-
-
+function verificaPosicao(linha,coluna){
+ if(tabuleiro[linha][coluna]==1 ){
+    console.log('acertou')
+ }
+}
 
 
 
