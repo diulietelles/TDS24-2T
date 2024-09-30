@@ -156,6 +156,8 @@ function verificaPosicao(linha,coluna){
  if(tabuleiro[linha][coluna]==1 ){
     console.log('acertou')
  }
+ else if()
+    else
 }
 
 
