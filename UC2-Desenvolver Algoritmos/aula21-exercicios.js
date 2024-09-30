@@ -18,6 +18,7 @@
 //********************************EXERCICIOS DE ESCRITA:***********************************//
 
 //Exercicio 1:
+
 let mapa = [] //array para inicializar
 
 //loop para mapa 5x5
@@ -60,4 +61,36 @@ for (let i = 0; i < pontuacoes.length; i++) { //  loop que calcula a pontuacao t
 for (let i = 0; i < pontuacaoTotal.length; i++) {
   console.log(`Pontuação total do jogador ${i + 1}: ${pontuacaoTotal[i]}`) // imprime cada pontuaçao de cada jogador
 }
+
+
+//Exercicio 3: 
+
+let matriz = [
+  [1, 2, 3, 4],
+  [5, 6, 7, 8],
+  [9, 10, 11, 12],
+  [13, 14, 15, 16]
+]
+
+for (let i = 0; i < matriz.length; i++) { // // loop que inverte os valores de cada linha da matriz
+  let linhaInvertida = [] // array vazio para armazenar a linha invertida
+  for (let j = matriz[i].length - 1; j >= 0; j--) { // percorre a linha de tras para frente
+    linhaInvertida.push(matriz[i][j]) //add o valor da posicao j da linha original ao array invertido
+  }
+  matriz[i] = linhaInvertida // substitui a linha original pela linha invertida
+}
+
+for (let i = 0; i < matriz.length; i++) { // lonha invertida
+  console.log(matriz[i].join(' | '))//cada linha da matriz com valores invertidos (join para separar)
+}
+
+
+
+
+
+
+
+
+
+
 
