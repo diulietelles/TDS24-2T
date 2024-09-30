@@ -42,3 +42,22 @@ for (let i = 0; i < mapa.length; i++) {
 
 
 //Exercicio 2:
+
+// Cria uma matriz 2D que armazena as ontuacoes
+let pontuacoes = [
+  [15, 25, 35, 45],  //jogador 1
+  [10, 20, 30, 40],  //jogador 2
+  [5,  10, 15, 20]   //jogador 3
+]
+let pontuacaoTotal = [0, 0, 0] // armazena a pontuacao total de cada jogador
+
+
+for (let i = 0; i < pontuacoes.length; i++) { //  loop que calcula a pontuacao total de cada jogador
+  for (let j = 0; j < pontuacoes[i].length; j++) { // para cada rodada
+    pontuacaoTotal[i] += pontuacoes[i][j] // add a pontuacao da rodada a pontuação total do jogador
+  }
+}
+for (let i = 0; i < pontuacaoTotal.length; i++) {
+  console.log(`Pontuação total do jogador ${i + 1}: ${pontuacaoTotal[i]}`) // imprime cada pontuaçao de cada jogador
+}
+
