@@ -74,7 +74,7 @@ let matriz = [
 
 for (let i = 0; i < matriz.length; i++) { // // loop que inverte os valores de cada linha da matriz
   let linhaInvertida = [] // array vazio para armazenar a linha invertida
-  for (let j = matriz[i].length - 1; j >= 0; j--) { // percorre a linha de tras para frente
+  for (let j = matriz[i].length - 1; j >= 0; j--) { // percorre a linha de tras para frente (-1 inicia na ultima posição)
     linhaInvertida.push(matriz[i][j]) //add o valor da posicao j da linha original ao array invertido
   }
   matriz[i] = linhaInvertida // substitui a linha original pela linha invertida
