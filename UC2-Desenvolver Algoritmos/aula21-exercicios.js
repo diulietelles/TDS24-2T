@@ -27,11 +27,11 @@ for (let i = 0; i < 5; i++) {
     let terreno = Math.floor(Math.random() * 3)//gera um numero aleatorio entre 0 e 2
   
     if (terreno === 0) {   // mapeia os numeros para palavras
-      linha.push("grama")  // add grama se o número for 0
+      linha.push('grama')  // add grama se o número for 0
     } else if (terreno === 1) {
-      linha.push("água")   // add agua se o numero for 1
+      linha.push('água')   // add agua se o numero for 1
     } else {
-      linha.push("montanha") // add montanha se o nmero for 2
+      linha.push('montanha') // add montanha se o nmero for 2
     }
   }
   mapa.push(linha)  // add a linha completa do mapa
