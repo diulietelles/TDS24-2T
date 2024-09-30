@@ -67,7 +67,8 @@ for (let i = 0; i < pontuacaoTotal.length; i++) {
 
 let matriz = [
   [1, 2, 3, 4],
-  [5, 6, 7, 8],
+  [5, 6, 7, 8], 
+  
   [9, 10, 11, 12],
   [13, 14, 15, 16]
 ]
@@ -80,7 +81,7 @@ for (let i = 0; i < matriz.length; i++) { // // loop que inverte os valores de c
   matriz[i] = linhaInvertida // substitui a linha original pela linha invertida
 }
 
-for (let i = 0; i < matriz.length; i++) { // lonha invertida
+for (let i = 0; i < matriz.length; i++) { // linha invertida
   console.log(matriz[i].join(' | '))//cada linha da matriz com valores invertidos (join para separar)
 }
 
