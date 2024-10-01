@@ -90,30 +90,31 @@ for (let i = 0; i < matriz.length; i++) { // linha invertida
 // Desafio:
 // 1. Gerar a Ilha
 function gerarIlha() {
-  let ilha = [];
+  let ilha = []
   for (let i = 0; i < 10; i++) {
-    let linha = [];
+    let linha = []
     for (let j = 0; j < 10; j++) {
-      let valorAleatorio = Math.floor(Math.random() * 5); // Valores de 0 a 4
-      linha.push(valorAleatorio);
+      let valorAleatorio = Math.floor(Math.random() * 5) // Valores de 0 a 4
+      linha.push(valorAleatorio)
     }
-    ilha.push(linha);
+    ilha.push(linha)
   }
-  return ilha;
+  return ilha
 }
 
 // Função para imprimir a ilha
 function imprimirIlha(ilha) {
   ilha.forEach(linha => {
     console.log(linha.map(cell => {
-      if (cell === 0) return 'grama';
-      if (cell === 1) return 'água';
-      if (cell === 2) return 'floresta';
-      if (cell === 3) return 'carnívoro';
-      if (cell === 4) return 'herbívoro';
-    }).join(' | '));
-  });
-}
+      if (cell === 0) return 'grama'
+      if (cell === 1) return 'água'
+      if (cell === 2) return 'floresta'
+      if (cell === 3) return 'carnívoro'
+      if (cell === 4) return 'herbívoro'
+    }).join(' | '))
+  })
+} 
+
 
 // 2. Movimentar Dinossauros
 function moverDinossauros(ilha, direcao) {
@@ -122,20 +123,20 @@ function moverDinossauros(ilha, direcao) {
     baixo: [1, 0],
     esquerda: [0, -1],
     direita: [0, 1],
-  };
+  }
 
-  let movimento = movimentos[direcao];
+  let movimento = movimentos[direcao]
 
   for (let i = 0; i < 10; i++) {
     for (let j = 0; j < 10; j++) {
       if (ilha[i][j] === 3 || ilha[i][j] === 4) { // Se for dinossauro
-        let novoI = i + movimento[0];
-        let novoJ = j + movimento[1];
+        let novoI = i + movimento[0]
+        let novoJ = j + movimento[1]
 
         // Verificar se a nova posição está dentro dos limites
         if (novoI >= 0 && novoI < 10 && novoJ >= 0 && novoJ < 10 && ilha[novoI][novoJ] === 0) {
-          ilha[novoI][novoJ] = ilha[i][j]; // Move dinossauro para a nova posição
-          ilha[i][j] = 0; // A posição antiga vira grama
+          ilha[novoI][novoJ] = ilha[i][j] // Move dinossauro para a nova posição
+          ilha[i][j] = 0 // A posição antiga vira grama
         }
       }
     }
@@ -144,30 +145,30 @@ function moverDinossauros(ilha, direcao) {
 
 // 3. Contar Dinossauros Restantes
 function contarDinossauros(ilha) {
-  let carnivoros = 0;
-  let herbivoros = 0;
+  let carnivoros = 0
+  let herbivoros = 0
 
   for (let i = 0; i < 10; i++) {
     for (let j = 0; j < 10; j++) {
-      if (ilha[i][j] === 3) carnivoros++;
-      if (ilha[i][j] === 4) herbivoros++;
+      if (ilha[i][j] === 3) carnivoros++
+      if (ilha[i][j] === 4) herbivoros++
     }
   }
 
-  console.log(`Carnívoros restantes: ${carnivoros}`);
-  console.log(`Herbívoros restantes: ${herbivoros}`);
+  console.log(`Carnívoros restantes: ${carnivoros}`)
+  console.log(`Herbívoros restantes: ${herbivoros}`)
 }
 
 // Testando o código
-let ilha = gerarIlha();
-console.log("Ilha inicial:");
-imprimirIlha(ilha);
+let ilha = gerarIlha()
+console.log("Ilha inicial:")
+imprimirIlha(ilha)
 
-moverDinossauros(ilha, 'direita');
-console.log("Ilha após movimentação:");
-imprimirIlha(ilha);
+moverDinossauros(ilha, 'direita')
+console.log("Ilha após movimentação:")
+imprimirIlha(ilha)
 
-contarDinossauros(ilha);
+contarDinossauros(ilha)
 
 
 
