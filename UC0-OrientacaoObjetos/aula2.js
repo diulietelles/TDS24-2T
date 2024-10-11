@@ -92,3 +92,97 @@ class Estoque:
     nivelEstoque
 
 */
+
+// EXERCICIO:
+// SISTEMAS DE GERENCIAMENTO DE CONDOMINIO:
+
+
+/*
+class Morador:
+    cadastro (pessoas)
+    registros (entrada, saída)
+    comunicao (zelador) 
+    ocupacao
+    quantidadeMoradores
+
+
+
+
+
+
+
+
+
+
+
+
+
+class condominio:
+    funcionarios
+    relatorios
+    moradias
+
+
+class moradia:
+    moradores
+        
+
+class servico:
+
+
+
+
+class areaLazer:
+
+
+
+
+
+
+
+
+
+
+
+
+
+class pessoa:
+    nome
+    cpf
+    dataNascimento
+    bloco, apartamento/casa
+    veiculo
+    DataOcupacao
+
+
+class Aluguel:
+    controlePagamento (apts/casas alugadas)
+    RegistroPagamento (alugueis)
+
+
+class manutencao
+    servicos
+    agendamentoReparos
+    historico
+
+class servicos
+    gestaofornecedor
+    solicitarServicos
+    monitoramento
+
+class relatorio
+    financeiros
+    manutenção
+    ocupacao
+
+class seguranca:
+    sistemasSeguranca
+    controleAcesso
+
+class pagamento: 
+    gestaoTaxaCondominio
+    sistemaPagamento
+    relatorioFinanceiro
+
+
+    */
