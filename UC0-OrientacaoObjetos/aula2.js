@@ -125,7 +125,12 @@ class condominio:
 
 class moradia:
     moradores
-        
+    bloco        
+    comodo
+    metragem
+    disponibilidade
+
+
 
 class servico:
 
@@ -136,7 +141,8 @@ class areaLazer:
 
 
 
-
+funcionario
+cargo
 
 
 
