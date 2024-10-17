@@ -45,8 +45,8 @@ class Academia{
         this.alunos.push(aluno)
     }
 
-    adicionarTreinoAluno(descricao: string,serie: number, repeticoes:number){
-
+    adicionarTreinoAluno(aluno: Aluno,descricao: string,serie: number, repeticoes:number){
+        const treino = new Treino(descricao,)
     }
     
 }
@@ -67,7 +67,7 @@ aluno.sobrenome_2 = 'Das Canhas'
 academia.adicionarAluno(aluno)
 academia.adicionarAluno(aluno_1)
 console.log(academia.alunos)
-
+academia.adicionarTreinoAluno(aluno_1, 'biceps', 3,12)
 
 
 
