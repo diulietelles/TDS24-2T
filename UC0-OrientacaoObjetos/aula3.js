@@ -125,6 +125,8 @@ metodos:
 
 //******************************** Método Construtor *********************************** 
 /*
+
+//exemplo1:
 let cachorro = new cachorro() //nao pode passar metodo vazio para o construtor, '()', precisa dizer que é string e explicar ela se é vazia
 
 class cachorro:
@@ -152,6 +154,63 @@ certo  : let cachorro= new cachorro('Boxer') // agora tem um parametro e direcio
 
 
 cachorro.constructor() //nao usar, nao funciona
+
+
+//exemplo2:
+
+class musica{
+    nome;
+    estilo;
+    autor;
+    ano;
+constructor(nome, estilo,autor,ano){
+    this.nome = nome
+    this.estilo = estilo
+    ''     ''        ''
+    }
+
+
+}
+
+
+
+
+//******************************** Classes enum *********************************** 
+/*
+
+//exemplo1:
+automaticamente um metodo construtor definido, quando passado um valor
+
+class mes(enum)
+1:Janeiro;
+2:Fevereiro;
+3:Marco;
+let mes= new mes(2)
+mes.value = fevereiro
+
+class servico:
+0: 'jardineiro'
+1: 'pedreiro';
+2: 'encanador';
+
+
+let servico = servico(0)
+servico é do tipo servico.jardinero? (true)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
