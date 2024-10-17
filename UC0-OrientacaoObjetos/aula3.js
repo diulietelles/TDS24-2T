@@ -26,9 +26,9 @@ objeto carro: instanciacao do objeto, pegar a classe e dar vida (comecar a fazer
 //Exercicio 1: SISTEMA DE GERENCIAMENTO DE ESTACIONAMENTO
 
 
-class Veiculos 
+class Veiculo
 atributos:
-   totalVeiculos
+   cadastroVeiculo
 metodos:
    registrarEntrada()
    registrarSaída()
@@ -36,18 +36,7 @@ metodos:
 
 
 
-class RegistroEntradaSaida:  
-   veiculoID  //criar ID de cada veiculo
-   tempoEntrada
-   tempoSaida
-metodos:
-   registrarEntrada() //mesmo class veiculos
-   registrarSaida()
-   
-
-
-
-class EmitirTickets:
+class EmitirTicket:
    ticketID //criar ID de cada placa
    veiculoID 
 metodos:
@@ -68,8 +57,8 @@ metodos:
 
 
 
-class  RelatorioDetalhados:  
-   listaVeiculos
+class  RelatorioDetalhado:  
+   listaVeiculo
    totalRelatorio
 metodos:
    gerarRelatorio()
@@ -79,10 +68,15 @@ metodos:
 
    
 class estacionanemto:
-   vagasDisponiveis
+    vagasDisponivel
+    veiculoID  
+    tempoEntrada
+    tempoSaida
 metodos:
-    verificarDisp()
-    otimizarEspaço()
+   registrarEntrada() 
+   registrarSaida()
+   verificarDisp()
+   otimizarEspaço()
 
 
 
@@ -100,13 +94,14 @@ class ExpCliente
   feedbackCliente
 metodos:
    coletarFeedback()
-   aplicarMelhorias()
+   aplicarMelhoria()
 
  
    
 
 class MonitoramentoTempoReal:
-   statusVeiculos
+   statusVeiculo
+
 metodos:
    ativarMonit()
    exibirMonit()
@@ -121,6 +116,42 @@ metodos:
    garantirSeguranca()
    monitorarIncidentes()
 
+
+
+
+
+
+
+
+//******************************** Método Construtor *********************************** 
+/*
+let cachorro = new cachorro() //nao pode passar metodo vazio para o construtor, '()', precisa dizer que é string e explicar ela se é vazia
+
+class cachorro:
+cor :
+pelo:
+raca:
+
+Exemplo certo:
+
+class cachorro:
+cor : string = ''
+pelo: string = ''
+raca: string = ''
+
+latido -> string
+return 'au-au'
+andar()-> void;
+constuctor(raca.str){
+ this.raca=raca; //vai ser chamado 'essa classe raca'
+
+}
+
+errado : let cachorro = new cachorrro() // precisa passar um parametro
+certo  : let cachorro= new cachorro('Boxer') // agora tem um parametro e direcionado para raca
+
+
+cachorro.constructor() //nao usar, nao funciona
 
 
 
