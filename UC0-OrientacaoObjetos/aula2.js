@@ -106,52 +106,6 @@ class Morador:
     quantidadeMoradores
 
 
-
-
-
-
-
-
-
-
-
-
-
-class condominio:
-    funcionarios
-    relatorios
-    moradias
-
-
-class moradia:
-    moradores
-    bloco        
-    comodo
-    metragem
-    disponibilidade
-
-
-
-class servico:
-
-
-
-
-class areaLazer:
-
-
-
-funcionario
-cargo
-
-
-
-
-
-
-
-
-
 class pessoa:
     nome
     cpf
