@@ -1,9 +1,6 @@
 
 /*
-
-
-
-
+exemplos e exercicios de fixação:
 
 1970
 
@@ -19,7 +16,7 @@ armazenmaneto estruturado consistencia,integridade e seguranca
 
 nivel fisico nivel logico e nivel de visao
 
-maior eficiência e facilidade de acesso
+maior eficiência e facilidade de acesso,seguranca, tira conflito de redundancia. restauracao do banco,
 
 
 
