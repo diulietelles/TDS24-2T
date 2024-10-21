@@ -13,9 +13,6 @@ class Treino{
 
 
 
-
-
-
 class Aluno{
     nome: string = ''
     sobrenome: string = ''
@@ -38,6 +35,10 @@ aluno.peso = 90
 aluno.altura = 188
 console.log(aluno.calcularIMC())
 
+
+
+
+
 class Academia{
     alunos: Array<Aluno> = []
 
@@ -46,10 +47,11 @@ class Academia{
     }
 
     adicionarTreinoAluno(aluno: Aluno,descricao: string,serie: number, repeticoes:number){
-        const treino = new Treino(descricao,)
+        // const treino = new Treino(descricao,)
     }
     
 }
+
 
 /*
 let academia = new Academia()
@@ -68,8 +70,6 @@ academia.adicionarAluno(aluno)
 academia.adicionarAluno(aluno_1)
 console.log(academia.alunos)
 academia.adicionarTreinoAluno(aluno_1, 'biceps', 3,12)
-
-
 
 
 
