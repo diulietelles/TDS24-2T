@@ -25,8 +25,8 @@ tabelas: objetos do mundo real
 coluna: atributos e caracteristicas
 tipo de dados: nome, caracter, data, dentro de uma tabeça
 
-STORED PROCEDURES: ADD FUNCOES 
-TRIGGERS: GATILHOS, ACIONA UMA OUTRA ACAO AUTOMATICAMENTE
+STORED PROCEDURES: adiciona funcoes
+TRIGGERS: gatilhos, aciona uma outra acao automaticamente 
 
 
 chaves primarias: ID
