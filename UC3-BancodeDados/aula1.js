@@ -2,21 +2,33 @@
 /*
 exemplos e exercicios de fixação:
 
-1970
+1970 
 
 quem criou : edgar codd
 
-banco de dados colecao de dados
+modelo er- 76 Dr Peter Chen
 
-sgbdsoftware  gerencia esses dados
+utilização: empresarial e governamental
 
-sistde banco de dados combina ambos
+conceitos: 
+entidade:tabela
+dado: numeros fatos
+informacao: conj de dados
+conhecimento: o que a gente abstrai dessa informacao
+padronizacao, seguranca, armazenmaneto estruturado consistencia,integridade
 
-armazenmaneto estruturado consistencia,integridade e seguranca
+o que é banco de dados: colecao de dados, repositorio onde armazena as infos, busca com performance,
 
-nivel fisico nivel logico e nivel de visao
+software:  gerencia esses dados
 
-maior eficiência e facilidade de acesso,seguranca, tira conflito de redundancia. restauracao do banco,
+sistde banco de dados combina ambos : 
+
+
+
+niveis de abstracao: nivel fisico nivel logico e nivel conceitual
+
+
+maior eficiência e facilidade de acesso,seguranca, tira conflito de redundancia. restauracao do banco, recuperacao de falhas, manutencao, controele de seguranca
 
 
 
